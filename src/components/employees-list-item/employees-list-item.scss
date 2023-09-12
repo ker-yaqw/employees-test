@@ -1,0 +1,23 @@
+.employees-item {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    padding: 5px 0;
+    cursor: pointer;
+   &__element {
+        font-size: 12px;
+        color: #fff;
+   } 
+}
+
+.employees-item:hover {
+    background: gray;
+}
+
+ #light .employees-item { 
+   &__element {
+        color: #272727;
+   } 
+}

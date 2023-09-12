@@ -1,0 +1,66 @@
+.form-panel {
+    width: 202px;
+    height: 75vh;
+    padding-left: 8px;
+    &__fieldset {
+        border: 1px solid grey;
+        height: 75vh;
+    }
+    &__input-name {
+        width: 170px;
+        border: 1.4px solid grey;
+        padding: 5px 4px;
+        outline: none;
+        font-size: 12px;
+        background: #272727;
+        color: #fff;
+        border-radius: 4px;
+    }
+    &__legend {
+        font-size: 12px;
+        color: #fff;
+    }
+    &__submit {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 16px;
+        background: gray;
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 8px 0px;
+        font-size: 12px;
+        border-radius: 4px;
+        color: #fff;
+        opacity: 0.8;
+        cursor: pointer;
+        position: relative;
+    }
+    &__submit::before {
+        content: '';
+        width: 90%;
+        height: 1px;
+        background: gray;
+        position: absolute;
+        bottom: -13px;
+        left: 14px;
+    }
+ 
+    &__delete {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        background: gray;
+        border: none;
+        outline: none;
+        width: 100%;
+        padding: 8px 0px;
+        font-size: 12px;
+        border-radius: 4px;
+        color: #fff;
+        opacity: 0.8;
+        position: relative;
+        cursor: pointer;
+    }
+}
+

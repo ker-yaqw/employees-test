@@ -1,0 +1,57 @@
+.employees-list {
+    border: 1px solid gray;
+    width: 75%;
+    height: 75vh;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    margin-top: 7.5px;
+    padding-bottom: 12px;
+}
+
+/* scroll */
+
+.employees-list::-webkit-scrollbar {
+   width: 6px;
+ }
+
+.employees-list::-webkit-scrollbar-track {
+   background: #272722;
+}
+
+.employees-list::-webkit-scrollbar-thumb {
+   background: darkgreen;
+   border-radius: 2px;
+   border: 3px solid darkgreen;
+}
+
+/* scroll mode light */
+
+#light .employees-list::-webkit-scrollbar {
+    width: 6px;
+  }
+ 
+#light .employees-list::-webkit-scrollbar-track {
+    background: gray;
+ }
+ 
+#light .employees-list::-webkit-scrollbar-thumb {
+    background: #272722;
+    border-radius: 2px;
+    border: 3px solid #272722;
+ }
+ 
+ 
+
+.employees-info {
+    background: gray;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    &__element {
+        font-size: 12px;
+        color: #fff;
+    }
+}

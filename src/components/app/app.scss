@@ -1,0 +1,17 @@
+.app {
+    margin: 0 auto;
+    max-width: 1115px;
+    background-color: #272722;
+    padding: 15px 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 17px;
+  }
+input::placeholder {
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
